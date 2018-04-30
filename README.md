@@ -1,9 +1,5 @@
 !["The Wisdom and/or Madness of Crowds"](http://ncase.me/crowds/social/thumb.png)
 
-# (العربية) العب هنا
-[https://alexanderclay.github.io/crowds/](https://alexanderclay.github.io/crowds/)
-
-# PLAY IT HERE (English): [http://ncase.me/crowds/](http://ncase.me/crowds/)
 
 Nicky Case
 لعبة من قبل  
@@ -15,6 +11,13 @@ Alex Clay
 [www.arabic.cool](http://www.arabic.cool/)   
 [www.facebook.com/AlexClayGames](https://www.facebook.com/AlexClayGames)  
 [twitter.com/_AlexanderClay](https://twitter.com/_AlexanderClay)  
+
+-----------
+
+# (العربية) العب هنا
+[https://alexanderclay.github.io/crowds/](https://alexanderclay.github.io/crowds/)
+
+# PLAY IT HERE (English): [http://ncase.me/crowds/](http://ncase.me/crowds/)
 
 -----------
 
