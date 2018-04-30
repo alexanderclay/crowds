@@ -1,9 +1,26 @@
 !["The Wisdom and/or Madness of Crowds"](http://ncase.me/crowds/social/thumb.png)
 
-# PLAY IT HERE: [http://ncase.me/crowds/](http://ncase.me/crowds/)
+# (العربية) العب هنا
+[https://alexanderclay.github.io/crowds/](https://alexanderclay.github.io/crowds/)
+
+# PLAY IT HERE (English): [http://ncase.me/crowds/](http://ncase.me/crowds/)
+
+Nicky Case
+لعبة من قبل  
+[ncase.me](http://ncase.me/)  
+[twitter.com/ncasenmare](https://twitter.com/ncasenmare)  
+
+Alex Clay
+الترجمة العربية من قبل  
+[www.arabic.cool](http://www.arabic.cool/)   
+[www.facebook.com/AlexClayGames](https://www.facebook.com/AlexClayGames)  
+[twitter.com/_AlexanderClay](https://twitter.com/_AlexanderClay)  
+
+-----------
 
 *The Wisdom and/or Madness of Crowds* is dedicated to the public domain,
-and was possible thanks to these open source/Creative Commons resources:
+and was possible thanks to these open source/Creative Commons resources:  
+:هذه اللعبة (*حكمة أو جنون الحشود*) مهداة إلى الملكية العامة، وصنعت بالاعتماد على هذه الموارد المفتوحة والمجانية
 
 **Music:** ["Friends 2018" and "Friends 2068"](http://freemusicarchive.org/music/Komiku/Tale_on_the_Late/) by Komiku (CC Zero)
 
@@ -58,6 +75,6 @@ Also, please feel free to credit yourself as a translator :)
 
 **Step 7)** 🎉 fweeeee
 
-# PUBLIC DOMAIN "LICENSE"
+# PUBLIC DOMAIN "LICENSE" الرخصة (ملكية عامة)
 
 [Creative Commons Zero](https://github.com/ncase/trust/blob/gh-pages/LICENSE): it's a public domain dedication, so basically, do whatever you want! Attribution is super appreciated, but I'm not gonna send legal goons after you or anything.
