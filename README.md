@@ -14,10 +14,9 @@ Alex Clay
 
 -----------
 
-# (العربية) العب هنا
-[https://alexanderclay.github.io/crowds/](https://alexanderclay.github.io/crowds/)
+# (بالعربية) العب هنا > [https://alexanderclay.github.io/crowds/](https://alexanderclay.github.io/crowds/)
 
-# PLAY IT HERE (English): [http://ncase.me/crowds/](http://ncase.me/crowds/)
+# PLAY IT HERE (English) > [http://ncase.me/crowds/](http://ncase.me/crowds/)
 
 -----------
 
