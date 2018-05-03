@@ -77,6 +77,6 @@ Also, please feel free to credit yourself as a translator :)
 
 **Step 7)** 🎉 fweeeee
 
-# PUBLIC DOMAIN "LICENSE" الرخصة (ملكية عامة)
+# PUBLIC DOMAIN "LICENSE" الرخصة ("ملكية عامة")
 
 [Creative Commons Zero](https://github.com/ncase/trust/blob/gh-pages/LICENSE): it's a public domain dedication, so basically, do whatever you want! Attribution is super appreciated, but I'm not gonna send legal goons after you or anything.
