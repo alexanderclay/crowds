@@ -137,7 +137,7 @@ a:hover{
 }
 
 /* Right & Down Arrows */
-.rarr, .darr{
+.rarr, .darr, .larr{
 	display: inline-block;
 	width: 1em;
 	height: 1em;
@@ -148,6 +148,9 @@ a:hover{
 }
 .darr{
 	transform: rotate(90deg);
+}
+.larr{
+	transform: rotate(180deg);
 }
 
 /* Sim UI */
