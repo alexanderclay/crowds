@@ -4,6 +4,35 @@
 
 Math.TAU = 6.2831853072; // for true believers
 
+var arabicNumbersMap =
+[
+	"٠","١","٢","٣","٤",
+	"٥","٦","٧","٨","٩"
+];
+
+function getArabicNumbers(str)
+{
+	var newStr = "";
+
+	str = String(str);
+	
+
+    for (i = 0; i < str.length; i +=1) {
+
+		if (arabicNumbersMap[parseInt(str.charAt(i))] != undefined) {
+			newStr += arabicNumbersMap[parseInt(str.charAt(i))];
+		}
+	}
+	
+	if (str[0] == "-"){
+		newStr += "-";
+	} else if (str[0] == "+"){
+		newStr += "+";
+	}
+	
+	return newStr;
+}
+
 // The poor man's jQuery
 function $(query){
 	return document.querySelector(query);

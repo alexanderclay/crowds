@@ -64,8 +64,13 @@ SLIDES.push(
 			label = getWords("preloader_play");
 			button.removeAttribute("disabled");
 		}else{
-			label = getWords("preloader_loading") + " ";
-			label += Math.round(window.PRELOAD_PROGRESS*100) + "%";
+
+			if (document.documentElement.lang == "ar") {
+				label = "%" + getWords("preloader_loading") + " " + getArabicNumbers(Math.round(window.PRELOAD_PROGRESS*100));
+			} else {
+				label = getWords("preloader_loading") + " ";
+				label += Math.round(window.PRELOAD_PROGRESS*100) + "%";
+			}
 		}
 		button.innerHTML = label;
 
