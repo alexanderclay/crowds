@@ -273,7 +273,12 @@ SLIDES.push(
 		});
 
 		// Modify metric box!
-		var label = getWords("networks_puzzle_metric") + " " + peepCount + " " + getWords("networks_puzzle_metric_2");
+		var label;
+		if (document.documentElement.lang == "ar") {
+			label = getWords("networks_puzzle_metric") + " " + getArabicNumbers(peepCount) + " " + getWords("networks_puzzle_metric_2");
+		} else {
+			label = getWords("networks_puzzle_metric") + " " + peepCount + " " + getWords("networks_puzzle_metric_2");
+		}
 		state.metric_label.innerHTML = label;
 		state.metric_bar.style.width = Math.round((peepCount/9)*100)+"%";
 
