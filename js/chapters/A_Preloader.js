@@ -65,10 +65,11 @@ SLIDES.push(
 			button.removeAttribute("disabled");
 		}else{
 
+			label = getWords("preloader_loading") + " ";
+
 			if (document.documentElement.lang == "ar") {
-				label = "%" + getWords("preloader_loading") + " " + getArabicNumbers(Math.round(window.PRELOAD_PROGRESS*100));
+				label += getArabicNumbers(Math.round(window.PRELOAD_PROGRESS*100)) + "%";
 			} else {
-				label = getWords("preloader_loading") + " ";
 				label += Math.round(window.PRELOAD_PROGRESS*100) + "%";
 			}
 		}
