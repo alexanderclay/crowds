@@ -62,6 +62,12 @@ function Boxes(){
 		if(config.img){
 			box.classList.add("image");
 			box.style.backgroundImage = "url("+config.img+")"
+
+			if(config.flipOnRTL == true && document.documentElement.lang == "ar") {
+				
+				box.style.webkitTransform = "ScaleX(-1)";
+				box.style.transform = "ScaleX(-1)";
+			}
 		}
 
 		// Sim UI
