@@ -35,7 +35,13 @@ function SandboxUI(container){
 
 		// update label
 		var label = _labelContagion0+" ";
-		label += Math.round(contagion*100)+"% ";
+
+		if (document.documentElement.lang == "ar") {
+			label += getArabicNumbers(Math.round(contagion*100))+"% ";
+		} else {
+			label += Math.round(contagion*100)+"% ";
+		}
+		
 		label += "("+((contagion==0) ? _labelContagion1 : _labelContagion2)+")";
 		contagionLabel.innerHTML = label;
 
