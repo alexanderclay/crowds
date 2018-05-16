@@ -6,12 +6,7 @@
 	font-weight: 400;
 	src: url(PatrickHand-Regular.ttf) format('truetype');
 }
-@font-face {
-	font-family: "NotoSansArabic";
-	font-style: normal;
-	font-weight: 400;
-	src: url(NotoSansArabic-CondensedLight.ttf) format('truetype');
-}
+
 /* HTML & BODY */
 html, body{
 	width:100%;
@@ -23,7 +18,7 @@ body{
 	background: #fff;
 	margin:0;
 
-	font-family: "PatrickHand", "NotoSansArabic", Helvetica, Arial;
+	font-family: "PatrickHand", Helvetica, Arial;
 	font-size: 23px;
 	line-height: 1.5em;
 

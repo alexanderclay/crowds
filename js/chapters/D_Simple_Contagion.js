@@ -48,7 +48,7 @@ SLIDES.push(
 		{
 			type:"box",
 			id:"ui",
-			x:380, y:165,
+			x:380, y:175,
 			sim_ui:"red"
 		},
 

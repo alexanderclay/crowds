@@ -66,7 +66,18 @@ Good luck, and thanks again!
 
 	<!-- Styles -->
 	<link rel="stylesheet" type="text/css" href="css/index.css?v=3">
-
+	<style>
+		/* font: Noto Sans Arabic https://www.google.com/get/noto/ */
+		@font-face {
+			font-family: "NotoSansArabic-CondensedLight";
+			font-style: normal;
+			font-weight: 400;
+			src: url(css/NotoSansArabic-CondensedLight.ttf) format('truetype');
+		}
+			body{
+			font-family: "PatrickHand", "NotoSansArabic-CondensedLight", Helvetica, Arial;
+		}
+	</style>
 </head>
 <body>
 
@@ -87,7 +98,7 @@ Good luck, and thanks again!
 		<canvas id="scratch" width="711" height="400"></canvas>
 
 		<!-- Skip -->
-		<div id="skip">&lt; تخطي</div> <!-- TRANSLATE -->
+		<div id="skip" style= "height:33px;">&lt; تخطي</div> <!-- TRANSLATE -->
 
 		<!-- Modal -->
 		<div id="modal_container">
@@ -106,10 +117,10 @@ Good luck, and thanks again!
 	<div id="navigation_container">
 		<div id="sound" mute="no">
 			<div id="sound_icon"></div>
-			<span id="sound_on" style="margin-left: -30px;">
+			<span id="sound_on" style="margin-left: -30px; margin-top: -2px; letter-spacing: 0px;">
 				
 				مفعّل</span> <!-- TRANSLATE -->
-			<span id="sound_off" style="margin-left: -26px;">مطفأ</span> <!-- TRANSLATE -->
+			<span id="sound_off" style="margin-left: -26px; margin-top: -2px; letter-spacing: 0px;">مطفأ</span> <!-- TRANSLATE -->
 		</div>
 		<div id="sharing">
 			<a id="fb" target="_blank" href="TODO"></a>
@@ -334,7 +345,7 @@ Also, <b></b> bolds a word/phrase, and <i></i> italicizes a word/phrase.
 	<br>
 	ومن يلومه بعد أن اخترع علم التفاضل والتكامل الرياضي ونظرية
 	<br>
-	الجاذبية؟ لابد أن يكون ذكياً بما يكفي ليقوم باستثمار أمواله، أليس كذالك؟
+	الجاذبية؟ لابد أن يكون ذكياً بما يكفي ليقوم باستثمار أمواله، أليس كذلك؟
 	<br>
 	لنختصر السيرة، خسر السير (نيوتن) ٤,٦٠٠,٠٠٠$ حسب قيمة الدولار اليوم
 	<br>
@@ -372,7 +383,7 @@ Also, <b></b> bolds a word/phrase, and <i></i> italicizes a word/phrase.
 	الحشود.
 </i>
 	<br>
-	ومع ذلك، عندما نفقد الأمل في البشرية، نرى المواطنين يتعاونون لإنقاذ
+	ومع ذلك، عندما نفقد الأمل في البشرية نرى المواطنين يتعاونون لإنقاذ
 	<br>
 	بعضهم في العواصف، ونرى مجتمعات تبني الحلول لمشاكلهم،
 	<br>
@@ -420,7 +431,7 @@ Also, <b></b> bolds a word/phrase, and <i></i> italicizes a word/phrase.
 	إلى الأشخاص منفردين
 	</i>
 
-	لنفهم الحشود
+	لنفهم الحشود،
 	بل ننظر إلى...
 	<next>
 		<i>...الروبط بينهم</i>  
@@ -511,13 +522,13 @@ Also, <b></b> bolds a word/phrase, and <i></i> italicizes a word/phrase.
 </words>
 
 <words id="optional_reading">
-	<div style="position:absolute; top:5px;">
+	<div style="position:absolute; top:3px;">
 		<i>
 			زر اختياري
 		</i> للقراءة الإضافية
 		&uarr;
 	</div>
-	<div style="position:absolute; left:63px; top:10px;">
+	<div style="position:absolute; left:47px; top:15px;">
 		&darr; المصادر والمراجع
 	</div>
 </words>
@@ -531,9 +542,9 @@ Also, <b></b> bolds a word/phrase, and <i></i> italicizes a word/phrase.
 	<ref id="drunk"></ref>
 	أجريت عام ١٩٩١
 	أنه
-	"فعلياً، جميع الطلاب
+	"أبلغ ما يقارب جميع الطلاب
 	[الجامعيين]
-	أبلغوا أن أصدقائهم يشربون أكثر مما هم يشربون"
+	أن أصدقائهم يشربون أكثر مما هم يشربون"
 	ولكن ألا يبدو ذلك مستحيلاً؟
 	كيف توصّل الطلاب إلى تلك النتيجة؟
 	الآن ستخترع الإجابة بنفسك عن طريق رسم شبكة،
@@ -593,7 +604,7 @@ Also, <b></b> bolds a word/phrase, and <i></i> italicizes a word/phrase.
 	لتقلّدهم.
 	</i>
 	والآن، لنلقي نظرة على ما يدعوه علماء الشبكات...
-	<next>"العدوى"!
+	<next>..."العدوى"!
 		<div class="larr"></div> </next>
 
 
@@ -649,7 +660,7 @@ Also, <b></b> bolds a word/phrase, and <i></i> italicizes a word/phrase.
 		هناك دليل إحصائي قوي
 		<ref id="contagion"></ref>
 		يشير أن التدخين وحضور الانتخابات ومعدل التعاون في الجماعة جميعهم يعدّون
-		"عدوى"
+		"عدوات"
 		&mdash;
 		وحتى أنه هناك دلائل تشير أن الانتحار
 		<ref id="suicides"></ref>
@@ -834,7 +845,7 @@ Also, <b></b> bolds a word/phrase, and <i></i> italicizes a word/phrase.
 	ولنقل أن الحد الأدنى لانتشار العدوى هو فقط
 	%٢٥
 	&mdash;
-	الناس مستعدة للتطوع، لكن بشرط أن ٢٥% من أصدقائهم يتطوعون أيضاً.
+	الناس مستعدة للتطوع، لكن بشرط أن %٢٥ من أصدقائهم يتطوعون أيضاً.
 	(حتى الأفعال الطيبة بحاجة لبعض التشجيع الاجتماعي!)
 	<br><br>
 
@@ -1031,15 +1042,15 @@ Also, <b></b> bolds a word/phrase, and <i></i> italicizes a word/phrase.
 	<div class="larr"></div> 
 	<br>
 	<div class="rarr"></div> 
-	كثير من الترابط، وتميل الفكرة إلى الفكر الجماعي.
-	Groupthink
+	كثير من الترابط، وتميل الفكرة إلى الفكر الجماعي
+	Groupthink.
 </words>
 
 <words id="bonding_2">
 	<b>
 	ارسم مجموعة تملك القيمة الموازنة الصحيحة من الروابط:
 		
-	يكتفي أن تربط القليل لنتشر فكرة معقدة!
+	يكتفي أن تربط القليل لتنشر فكرة معقدة!
 	<div class="darr"></div>
 	</b>
 </words>
@@ -1080,7 +1091,7 @@ Also, <b></b> bolds a word/phrase, and <i></i> italicizes a word/phrase.
 	("جسور تواصل رأس المال الاجتماعي")
 		Bridging Social Capital.
 	</b>
-	هذه الموضوع مهم، لأنه يساعد المجموعات على كسر جدران رد الصدى لأفكارهم
+	هذه الموضوع مهم لأنه يساعد المجموعات على كسر جدران رد الصدى لأفكارهم
 	("Echo Chambers")!
 	
 	<br>
@@ -1303,14 +1314,14 @@ Also, <b></b> bolds a word/phrase, and <i></i> italicizes a word/phrase.
 		direction: rtl;
 	">
 		<b>العدوى:</b>
-		مثلما تنقل العصبونات الإشارات في الدماغ فالناس
+		مثلما تنقل العصبونات الإشارات في الدماغ، فالناس
 		ينقلون المعتقدات والتصرفات في المجتمع.
 		لا نكتفي بالتأثير على أصدقائنا، بل ونأثر على أصدقاء أصدقائنا، وحتى أصدقاء أصدقاء أصدقائنا!
 		<ref id="three_degrees"></ref>
 
 		("كن التأثير الذي ترد أن تراه في العالم"
 		وغيره من أقوال)
-		ولكن، كما الحال للعصبون، ليست فقط الإشارة ما تؤثر، بل أيضاً...
+		ولكن، كما الحال للعصبونات، ليست فقط الإشارات ما تؤثر، بل أيضاً...
 	</div>
 
 	<div style="
@@ -1423,7 +1434,7 @@ Also, <b></b> bolds a word/phrase, and <i></i> italicizes a word/phrase.
 		خطوط على شاشة...
 
 		<next>
-		...ولكن حقاً الأمر يستحق العناء.
+		...ولكن الأمر حقاً يستحق العناء.
 		</next>
 
 	</span>
@@ -1436,9 +1447,9 @@ Also, <b></b> bolds a word/phrase, and <i></i> italicizes a word/phrase.
 	</i>
 	<br>
 	<span style="position:relative; top:5px">~</span>
-	Neil Gaiman
-	و
 	Terry Pratchett
+	و
+	Neil Gaiman
 	<div style="height:0.8em"></div>
 	<next small>&lt;3</next>
 </words>
@@ -1464,19 +1475,19 @@ Also, <b></b> bolds a word/phrase, and <i></i> italicizes a word/phrase.
 		<span style="color:#777; position:relative; top:5px; display: inline-block; margin-top: 15px;">
 			كثير من الحب والشكر إلى
 		</span>
-		<div style="font-size: 3em; line-height: 1.0em;">
+		<div style="margin-bottom:18px; font-size: 3em; line-height: 1.0em;">
 			داعميني على
 			PATREON
 		</div>
 		<a onclick='publish("reference/show", ["supporters"]);'>
-			اقرأ أسماء الداعمين وتمعّن على رسمات لأشكالهم
+			اقرأ أسماء الداعمين وتمعن على رسمات لأشكالهم
 		</a>
 			·
 		<a onclick='publish("reference/show", ["playtesters"]);'>
 			اقرأ أسماء مختبري اللعبة</a>
 		<br>
 		<a target="_blank" href="https://www.patreon.com/ncase" style="text-decoration:none">
-			!ادعمني في صنع تجارب بمثل هذا النمط
+			ادعمني في صنع تجارب بمثل هذا النمط!
 			&lt;3</a>
 
 		<br><br>
@@ -1557,25 +1568,25 @@ Sorry, not done yet! These Bonus Boxes need you to TRANSLATE, too:
 	هذا الكتاب.</a>
 	إنه كتاب جيد، و(سوروكي) يحاول الإجابة عن نفس السؤال الذي أسأله أنا:
 	
-	<b>“لماذا تنقلب بعض الحشود إلى الجنون، أو إلى الحكمة”</b>
+	<b>“لماذا تنقلب بعض الحشود إلى الجنون أو إلى الحكمة”</b>
 
 	<br><br>
 
-	جواب (سوروكي): الحشود تقوم باختيارات جيدة عندما يكون جميع الأفراد منفردين بأكبر قدر ممكن.
-	يلقي (سوروكي) قصة عن مهرجان بلدي. دعي سكان بلدة للتخمين عن وزن ثور،
+	جواب (سوروكي): تقوم الحشود باختيارات جيدة عندما يكون جميع الأفراد منفردين بأكبر قدر ممكن.
+	يلقي (سوروكي) قصة عن مهرجان بلدي: دعي سكان بلدة للتخمين عن وزن ثور،
 	المفاجئ أن 
 	<i>
 	متوسط جميع
 </i>
 	التخمينات كان أفضل من أي تخمينٍ
 	<i>
-	،وحيد
+	وحيد،
 </i>
 	وهنا سبب نجاح المجموعة: يجب على الأفراد أن يخمّنوا
 	<i>
 	مستقلين
 	</i>
-	.عن بعضهم. وإلا فيتأثروا بالتخمينات السابقة الخاطئة، ومنه ينحاز متوسط الجواب بشدة
+	عن بعضهم وإلا فيتأثروا بالتخمينات السابقة الخاطئة، ومنه ينحاز متوسط الجواب بشدة.
 	
 	<br><br>
 
@@ -1592,7 +1603,7 @@ Sorry, not done yet! These Bonus Boxes need you to TRANSLATE, too:
 
 	إذاً، أي فكرة هي الصحيحة؟
 	أترجع الحكمة إلى التفكير مع النفس؟ أم إلى التفكير مع الآخرين؟
-	.واضح إي منهم هو الجواب الأفضل
+	واضح أي منهم هو الجواب الأفضل.
 	
 
 	<br><br>
@@ -1600,12 +1611,11 @@ Sorry, not done yet! These Bonus Boxes need you to TRANSLATE, too:
 	
 	وهذا ما سأحاول شرحه في هذه
 	<i>
-	"المحاكية المفسرة"
+	"المحاكية المفسرة":
 	</i>
-	:
 	كيف يمكننا الوصول إلى قيمة موازنة بين الاستقلال والترابط
 	&mdash;
-	.أي، كيف يمكننا الوصول إلى حشد حكيم
+	أي، كيف يمكننا الوصول إلى حشد حكيم.
 
 	</div>
 
@@ -1706,12 +1716,12 @@ Sorry, not done yet! These Bonus Boxes need you to TRANSLATE, too:
 	</b>
 	مثلما أي خريطة تعتبر
 	"خاطئة".
-	أترى الخارطة على اليسار؟ في الواقع، إن الأبنية ليست مكعّبات رمادية ناعمة! وإن!
+	أترى الخارطة على اليسار؟ في الواقع، إن الأبنية ليست مكعّبات رمادية ناعمة! وإن
 	الكلمات لا تطفوا فوق المدن! مع ذلك، الخوارط تساعدنا... ليس
 	<i>
 	على الرغم
 </i>
-	من تبسيطها للواقع
+	من تبسيطها للواقع،
 	بل
 	<i>
 	بسبب
@@ -1744,7 +1754,7 @@ Sorry, not done yet! These Bonus Boxes need you to TRANSLATE, too:
 	<div>
 	لدى علماء الشبكات العديد العديد من الطرق ليحاكوا
 	"العدوات"!
-	لقد اخترت أنا أبسط واحدة من أجل أسباب تعليمية، ولكن هذه بعض الطرق الأخرى:
+	لقد اخترت أنا أبسط واحدة من أجل أسباب تعليمية، ولكن هنا بعض الطرق الأخرى:
 
 	<div style="clear:both"></div>
 	<br>
@@ -1793,11 +1803,11 @@ Sorry, not done yet! These Bonus Boxes need you to TRANSLATE, too:
 		مختلفة
 	</i>
 	في نفس البيئة؟
-	كمثال، ليكن هناك عدوى،
+	كمثال، ليكن هناك عدوى
 	"جنون"
-	بسيطة، وعدوى
+	بسيطة وعدوى
 	"حكمة"
-	.معقدة
+	معقدة.
 	إن أعدي فرد بالجنون، فهل يمكن أن يصاب بعدوى الحكمة؟ أو بالعكس؟
 	أيمكن لفرد أن يصاب بالعدواتان معاً؟
 
@@ -1808,14 +1818,13 @@ Sorry, not done yet! These Bonus Boxes need you to TRANSLATE, too:
 	<b>
 		عدوى يمكنها التغير والتطور:
 	</b>
-	الأفكار لا تنتقل بين فرد وآخر بشكل تام مثل الفيروس. فالرسالة تتغير كل مرة يتم إعادة إلقائها
-	مثل لعبة 
-	"الهاتف"
+	الأفكار لا تنتقل بين فرد وآخر بشكل تام مثل الفيروس. فمثل لعبة "الهاتف" الرسالة تتغير كل مرة يتم إعادة إلقائها
+	
 	&mdash;
-	!وأحياناً التغير يجعلها أكثر إعدائاً من الصورة الأصلية
+	وأحياناً التغير يجعلها أكثر إعدائاً من الصورة الأصلية!
 	لذا الأفكار 
 	"تتطور"
-	.لتصبح أكثر إطلاقاً وأسهل نسخاً وإعدائاً عبر الزمن
+	لتصبح أكثر إطلاقاً وأسهل نسخاً وإعدائاً عبر الزمن.
 
 	<div style="clear:both"></div>
 
@@ -1865,7 +1874,7 @@ Sorry, not done yet! These Bonus Boxes need you to TRANSLATE, too:
 	Game Theory
 	وعن كيفية نشوء التعاون... أو إنهياره.
 	<br>
-	(هذه اللعبة مترجمة إلى العربية من نفس المترجم)
+	(مترجمة إلى العربية من نفس المترجم)
 
 	<div style="clear:both"></div>
 	<br>
@@ -1913,16 +1922,15 @@ Final thing! These references also need you to TRANSLATE:
 <reference id="drunk">
 
 	<h3>
-	"فعلياً، جميع الطلاب
+	"أبلغ ما يقارب جميع الطلاب
 	(الجامعيين)
-	أبلغوا أن أصدقائهم يشربون أكثر مما هم يشربون"
+	أن أصدقائهم يشربون أكثر مما هم يشربون"
 
 	</h3>
 
 	<div>
 	<a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/1758185">
-	"التحيزات في تقرير معدلات الشرب لدى الطلاب الجامعيين"
-	</a> من قبل
+	"التحيزات في تقرير معدلات الشرب لدى الطلاب الجامعيين"</a> من قبل
 	Baer
 	ومعاونيه
 	(١٩٩١)
@@ -1940,13 +1948,12 @@ Final thing! These references also need you to TRANSLATE:
 	<div>
 	<a target="_blank" href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0147617">
 	
-	"وهم الأكثرية في الشبكات الاجتماعية"
-	</a> من قبل Lerman
+	"وهم الأكثرية في الشبكات الاجتماعية"</a> من قبل Lerman
 	ومعاونيه
 	(٢٠١٦).
 	<br>
 	متعلق: <a target="_blank" href="https://en.wikipedia.org/wiki/Friendship_paradox">
-	("تناقضة الصداقة")</a>.
+	("تناقضة الصداقة").</a>
 	</div>
 </reference>
 <reference id="contagion">
@@ -2055,10 +2062,7 @@ Final thing! These references also need you to TRANSLATE:
 
 	<a target="_blank" href="https://www.unc.edu/~fbaum/teaching/articles/Granovetter_AJS_1978.pdf">
 		
-	"نمط الحد الأدنى للتصرف الجماعي"
-	
-
-	</a>
+	"نمط الحد الأدنى للتصرف الجماعي"</a>
 	من كتابة Granovetter
 	عام
 	١٩٧٨،
@@ -2070,21 +2074,19 @@ Final thing! These references also need you to TRANSLATE:
 
 	<a target="_blank" href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0180802">
 		
-	"أدلة لنمط العدوى المعقدة في العدوى الاجتماعية من منظور البيانات المراقبة"
-</a>
+	"أدلة لنمط العدوى المعقدة في العدوى الاجتماعية من منظور البيانات المراقبة"</a>
 	من قبل Sprague
 	و
 	House (٢٠١٧)
 	يشير أن العدوى المعقدة موجودة بالفعل
-	(على الأقل، ضمن بيانات وسائل الاعلام المراقبة).
+	(على الأقل، ضمن بيانات وسائل الإعلام المراقبة).
 	
 	<br><br>
 
 	وأخيراً،
 	<a target="_blank" href="https://arxiv.org/pdf/cond-mat/0403699.pdf">
 		
-	"التصرف العام في نماذج معمّمة للعدوى"
-	</a> من كتابة
+	"التصرف العام في نماذج معمّمة للعدوى"</a> من كتابة
 	 Dodds 
 	 و
 	  Watts (٢٠٠٤).
@@ -2182,8 +2184,7 @@ Final thing! These references also need you to TRANSLATE:
 	<div>
 	<a target="_blank" href="https://sociology.stanford.edu/sites/default/files/publications/the_strength_of_weak_ties_and_exch_w-gans.pdf">
 	
-	"قوة الروابط الضعيفة"
-	</a> من قبل Granovetter
+	"قوة الروابط الضعيفة"</a> من قبل Granovetter
 	(١٩٧٣)
 	يرينا أن الروابط عبر المجموعات تساعد في نشر العدوى البسيطة
 	(كالمعلومات)،
@@ -2292,7 +2293,7 @@ Final thing! These references also need you to TRANSLATE:
 	(٢٠٠٥).
 	حللت هذه الورقة العلمية الشبكة الاجتماعية لمسارح
 	Broadway
-	خلال الزمن، واكتشفت، كما قلت سابقاً، أن الشبكة أكثر ابداعاً عندما تكون شكبة
+	خلال الزمن، واكتشفت، كما قلت أنا سابقاً، أن الشبكة أكثر ابداعاً عندما تكون شبكة من نمط
 	"عالم صغير"!
 
 	</div>
@@ -2345,20 +2346,20 @@ Final thing! These references also need you to TRANSLATE:
 	أن فكرة غزو كوبا بسرية وإسقاط حكمة
 	(فيدل كاسترو)
 	فكرة جيدة.
-	ثم فشلوا
+	ثم فشلوا،
 	بل أسوأ من
 	"فشلوا":
 	لقد أدت الغزوة إلى
 	("أزمة صواريخ كوبا")
-	لعام ١٩٦٢
-	Cuban Missile Crisis،
+	Cuban Missile Crisis
+	لعام ١٩٦٢،
 	<i>
 		وتلك كانت أقرب مرة وصل فيها العالم إلى حرب نووية شاملة.
 	</i>
 
 	<br><br>
 	
-	بلى، لقد أفشل (جون) هذه المسألة فشلاً تاماً.
+	بلى، لقد أفشل (جون) هذه المسألة فشلاً ذريعاً.
 
 	<br><br>
 
@@ -2367,17 +2368,17 @@ Final thing! These references also need you to TRANSLATE:
 	بعض الدروس الصعبة من إخفاق
 	("غزو خليج الخنازير")
 	وعلى أساسها قام بإعادة تنظيم فريقه لتجنب التفكير الجماعي.
-	من أبرز اصلاحاته كان:
+	من أبرز اصلاحاته كانت:
 	
-	١(
+	١-
 	شجع الأفراد على أن يطرحوا انتقاداتهم بشكل صريح، مما قلل من
 	"الحد الأدنى للعدوى"
 	تجاه الأفكار البديلة.
 	وأيضاً
-	٢(
-		قسّم فريقه إلى عدة فرق مصغّرة قبل عقد الاجتماعات، مما أعطى مجموعه تصميماً يشابه تصميم
+	٢-
+		قسّم فريقه إلى عدة فرق مصغّرة قبل عقد الاجتماعات، مما أعطى مجموعته تصميماً يشابه تصميم
 		"شبكة العالم الصغير".
-		وسمح ذلك التنظيم بوجود تنوّع مفيد من الآراء دون شقّ مجموعة كثيراً
+		وسمح ذلك التنظيم بوجود تنوّع مفيد من الآراء دون شقّ المجموعة كثيراً
 		&mdash;
 		أي، حشد
 		<i>
@@ -2386,36 +2387,35 @@ Final thing! These references also need you to TRANSLATE:
 
 	<br><br>
 
-	وهكذا، باستخدام نفس
-
+	وهكذا، باستخدام 
 	<i>
-	الأفراد
+	نفس الأفراد
 </i>
 
 	الذين اختاروا القيام
 	<b>
-	بغزوة خليج الخنازير
+	بغزوة خليج الخنازير،
 	</b>
-	،ولكن منظمين
+	ولكن منظمين
 
 	<i>
 	بشكل جماعي
 	</i>
 	لاتخاذ القرارات في
 	<b>
-	أزمة صواريخ كوبا
-	</b>...
+	أزمة صواريخ كوبا...
+	</b>
 	نجح فريق
 	(جون ف. كينيدي)
 	بالوصول لاتفاق سلمي مع الرئيس السوفييتي
-	(نيكيتا خروتشوف)
+	(نيكيتا خروتشوف).
 
-	زعم الاتفاق بأن يزيل السوفييت صواريخم من كوبا، وبالمقابل وعدت الولايات المتحدة بعدم غزو كوبا مجدداً.
-	(واتفقوا بسرية على إزالة الصورايخ الأمريكية من تركيا)
+	زعم الاتفاق بأن يزيل السوفييت صواريخم من كوبا، وبالمقابل وعدت الولايات المتحدة بعدم غزو كوبا مجدداً
+	(واتفقوا بسرية على إزالة الصورايخ الأمريكية من تركيا).
 
 	<br><br>
 
-	وتلك كانت قصة تحكي كيف أوشكت البشرية على الانقراض
+	وتلك كانت قصة تحكي كيف أوشكت البشرية على الانقراض،
 	وكيف أنقذتها شبكة عالم صغير وحيدة!... نوعاً ما.
 
 	<br><br>
@@ -2426,8 +2426,8 @@ Final thing! These references also need you to TRANSLATE:
 	Harvard Business Review</a>،
 	أو في
 	<a target="_blank" href="https://web.archive.org/web/20100401033524/http://apps.olin.wustl.edu/faculty/macdonald/GroupThink.pdf">
-	المقالة الأصلية عن التفكير الجماعي
-	</a>.
+	المقالة الأصلية عن التفكير الجماعي.
+	</a>
 
 	</div>
 
