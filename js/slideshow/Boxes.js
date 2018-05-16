@@ -78,6 +78,10 @@ function Boxes(){
 		// Sandbox UI
 		if(config.sandbox){
 			var sandboxUI = new SandboxUI(box);
+
+			if (document.documentElement.lang == "ar") {
+				box.style.left = "50px";
+			}
 		}
 
 		// Replace "next" buttons!
