@@ -18,7 +18,7 @@ r.onreadystatechange = function () {
 		var a = available[i];
 		var code = a.match(/\w\w/)[0];
 		var lang = a.match(/^\w\w\:?\s+(.+)/)[1];
-		if(code=="en") continue; // English is just an example
+		 if(code=="en") continue; // English is just an example
 		TRANSLATIONS.push({
 			code: code,
 			lang: lang
@@ -32,9 +32,13 @@ r.onreadystatechange = function () {
 	if(TRANSLATIONS.length>0){
 		var html = "";
 		html += getWords("translations_exist").toLowerCase();
-		html += " <a target='_blank' href='"+window.ADD_YOUR_OWN_LINK+"'>"+getWords("translations_add")+"</a>";
+		html += " <a target='_blank' href='https://github.com/ncase/crowds#how-to-translate-this-thing'>"+getWords("translations_add")+"</a>";
 		html += " | ";
 		html += _createLinks(" · ");
+
+		// PUT THIS IN the Pull request
+		html += " · <a href='http://alexanderclay.github.io/crowds/ar.html' style='text-decoration:none'>العربية</a>";
+
 		$("#translations").innerHTML = html;
 	}
 
@@ -42,11 +46,11 @@ r.onreadystatechange = function () {
 r.send();
 
 function _createLinks(separator){
-	var html = "";
+	var html = "<a href='http://ncase.me/crowds/' style='text-decoration:none'>English</a>" + separator;
 	for(var i=0; i<TRANSLATIONS.length; i++){
 		var t = TRANSLATIONS[i];
 		if(i>0) html+=separator;
-		html += "<a href='"+t.code+".html' style='text-decoration:none'>";
+		html += "<a href='http://ncase.me/crowds/"+t.code+".html' style='text-decoration:none'>";
 		html += t.lang;
 		html += "</a>";
 	}
