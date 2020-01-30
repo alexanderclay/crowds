@@ -285,7 +285,15 @@ function Peep(config){
 
 				// %, centered
 				ctx.textAlign = "center";
-				var labelPercent = Math.round(100*(self.numInfectedFriends/self.numFriends)) + "%";
+				var labelPercent;
+				
+				if (document.documentElement.lang == "ar") {
+					labelPercent = "%" + getArabicNumbers(Math.round(100*(self.numInfectedFriends/self.numFriends)));
+				} else {
+
+					labelPercent = Math.round(100*(self.numInfectedFriends/self.numFriends)) + "%";
+				}
+				
 				ctx.fillText(labelPercent, 0, 0);
 
 				/*

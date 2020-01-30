@@ -83,7 +83,7 @@ SLIDES.push(
 		// PIC
 		{
 			type:"box",
-			img:"sprites/small_world.png", x:-10, y:95, w:970, h:284
+			img:"sprites/small_world.png", x:-10, y:95, w:970, h:284, flipOnRTL:true
 		},
 
 		// Words

@@ -105,10 +105,18 @@ subscribe("modal/translations", function(){
 		}else{
 			html += getWords("translations_do_not_exist");
 		}
-		html += " <a target='_blank' href='"+window.ADD_YOUR_OWN_LINK+"'>"+getWords("translations_add")+"</a>";
+		html += " <a target='_blank' href='https://github.com/ncase/crowds#how-to-translate-this-thing'>"+getWords("translations_add")+"</a>";
 		html += "<br>";
 		html += _createLinks(" · ");
+		
+		// PUT THIS IN the Pull request
+		html += " · <a href='http://alexanderclay.github.io/crowds/ar.html' style='text-decoration:none'>العربية</a>";
+
+		html += "<br> (More languages available in the English link)";
+
+
 		$("#modal_content").innerHTML = html;
+		
 			
 		// Show in large box
 		Modal.show(false);
